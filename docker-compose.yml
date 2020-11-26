@@ -1,0 +1,7 @@
+version: '3'
+services:
+  agqrrec:
+    build: ./
+    volumes:
+      - ./rec:/rec
+    container_name: agqrrec
